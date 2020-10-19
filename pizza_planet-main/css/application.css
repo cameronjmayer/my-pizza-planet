@@ -1,0 +1,92 @@
+
+.section-header {
+    background: url("../images/jobs.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    /*padding: calc(70px + 9rem) 0 9rem; 
+    position: relative; */
+  }
+
+body {
+    background: white;
+    /*text-align: center;
+    /*color: white; */
+} 
+
+.positions {
+    margin: 50px 0 50px 0;
+}
+
+.btn {
+    background-color: #e7272d;
+    color: white;
+    /*margin: 50px 0 -50px 0;*/
+    margin: 15px 0 20px 0;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.app {
+    padding: 25px;
+    margin: 25px;
+} 
+
+.form-group {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox > span {
+    color: black;
+    
+    margin-left: 10px;
+    /*padding: 0.5rem 0.25rem;*/
+}
+
+.checkbox > input {
+    height: 25px;
+    width: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid black;;
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+  }
+
+.checkbox > input:checked {
+    background-color: #e7272d;
+}
+
+.checkbox > input:checked + span::before {
+    content: '\2713';
+    display: block;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.2rem;
+}
+
+.checkbox > input:active {
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
